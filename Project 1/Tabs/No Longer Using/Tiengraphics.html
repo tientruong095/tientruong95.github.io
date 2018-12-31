@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+
+    <!--    THIRD TIMES A CHARM   -->
+
+    <head>
+        <style type="text/css">
+
+            div{
+                background-color: azure;
+            }    
+            h1 {
+                font-family: Chonburi;
+                font-size: 50px;
+            }
+            h3 {
+                background-color:white;
+                color: black;
+                font-family: Raleway, sans-serif;
+                font-style: normal;
+                font-size: 12px;
+            }
+            A{ text-decoration: none}
+            a:link {
+                color: black; 
+                background-color: transparent; 
+                text-decoration: none;
+            }
+
+            a:visited {
+                color:darkgrey;
+                background-color: transparent;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: lightgray;
+                background-color: transparent;
+            }
+
+            a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            a:any-link { 
+                padding:20px 20px;
+                font-family: Raleway, sans-serif;
+                font-style: normal;
+                font-size: px;
+            }
+            nav{
+                width: 100%;
+                position: fixed;
+                top:50px;
+                text-align:center;
+            }
+            nav a{
+                font-family: 'Oswald', sans-serif;
+                font-weight:500;
+                text-transform:uppercase;
+                text-decoration:none;
+                color:#16151b;
+                margin:0 15px;
+                font-size:16px;
+                letter-spacing:1px;
+                position:relative;
+                display:inline-block;
+            }
+            nav a:before{
+                content:'';
+                position: absolute;
+                width: 100%;
+                height: 3px;
+                background:#16151b;
+                top:47%;
+                animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+            }
+            nav a:hover:before{
+                animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+
+            }
+            @keyframes in{
+                0%{
+                    width: 0;
+                    left:0;
+                    right:auto;
+                }
+                100%{
+                    left:0;
+                    right:auto;
+                    width: 100%;
+                }
+            }
+            @keyframes out{
+                0%{
+                    width:100%;
+                    left: auto;
+                    right: 0;
+                }
+                100%{
+                    width: 0;
+                    left: auto;
+                    right: 0;
+                }
+            }
+            @keyframes show{
+                0%{
+                    opacity:0;
+                    transform:translateY(-10px);
+                }
+                100%{
+                    opacity:1;
+                    transform:translateY(0);
+                }
+            }
+
+        </style>
+
+
+        <link href="https://fonts.googleapis.com/css?family=Chonburi|Limelight|Oleo+Script|Monoton|Libre+Barcode+128+Text|Lobster|Raleway" rel="stylesheet">
+
+    </head>
+    <body>
+        <img src="TN.jpg" style="width:5%">
+        <center>
+            <h1> 
+                <b> KENNY TRUONG </b>
+                <br>
+                <img src="giphy.gif" style="width:468px;height:260px;">
+            </h1>
+            <div>
+                <nav>
+                    <a href="http://tiengraphics.com/about-1/">ABOUT</a>
+                    <a href="http://tiengraphics.com/" >ORIGINAL </a>
+                    <a href="http://tiengraphics.com/design/"  >DESIGN</a>
+                    <a href="http://tiengraphics.com/photography/" >PHOTOGRAPHY</a>
+                    <a href="http://tiengraphics.com/moving-pictures/" > VIDEO</a>
+                </nav>
+            </div>
+        </center>
+        <img src="ramen.svg" style="width:100%">
+        <h2>
+            <i> Kenny is a photographer, videographer, and <del>communication</del> designer</i>
+        </h2>
+
+        <h3 >
+
+            <p> Kenny with his first given name Tien, started his passion with videos in middle school. He wanted to do everything in video and become a YouTube celebrity, but it all changed during his last year in high school. As a senior, Kenny tried many different things from nursing, pharmaceutical sciences, bartending, dancing, business, psychology, and even law enforcement.
+                <br>
+                <br>
+                Afer 4 years of trying different fields he realized what the most important thing to him was.
+                <br>
+
+                <br>Creativity<br> 
+
+                <br>
+                He loved doing things different and being the first to try something out. Eventually design became more than a passion to him.
+
+                <br>
+                <br>
+                <br>
+
+                <i> "I breathe design"</i>
+
+                <br>
+                <br>
+                <br>
+
+            </p>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </h3>
+    </body>
+</html>
